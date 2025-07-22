@@ -1,0 +1,171 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A1234567890ABCD /* RunningCatMenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1234567890ABCE /* RunningCatMenuBarApp.swift */; };
+		1A1234567890ABCF /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1234567890ABC0 /* StatusBarController.swift */; };
+		1A1234567890ABC1 /* CPUMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1234567890ABC2 /* CPUMonitor.swift */; };
+		1A1234567890ABC3 /* LottieStatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1234567890ABC4 /* LottieStatusBarView.swift */; };
+		1A1234567890ABC5 /* CPUDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1234567890ABC6 /* CPUDetailView.swift */; };
+		1A1234567890ABC7 /* cat walking.json in Resources */ = {isa = PBXBuildFile; fileRef = 1A1234567890ABC8 /* cat walking.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A1234567890ABCA /* RunningCatMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningCatMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A1234567890ABCE /* RunningCatMenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunningCatMenuBarApp.swift; sourceTree = "<group>"; };
+		1A1234567890ABC0 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		1A1234567890ABC2 /* CPUMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUMonitor.swift; sourceTree = "<group>"; };
+		1A1234567890ABC4 /* LottieStatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieStatusBarView.swift; sourceTree = "<group>"; };
+		1A1234567890ABC6 /* CPUDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUDetailView.swift; sourceTree = "<group>"; };
+		1A1234567890ABC8 /* cat walking.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = "cat walking.json"; sourceTree = "<group>"; };
+		1A1234567890ABC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A1234567890ABCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1A1234567890ABCC /* RunningCatMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				1A1234567890ABCE /* RunningCatMenuBarApp.swift */,
+				1A1234567890ABC0 /* StatusBarController.swift */,
+				1A1234567890ABC2 /* CPUMonitor.swift */,
+				1A1234567890ABC4 /* LottieStatusBarView.swift */,
+				1A1234567890ABC6 /* CPUDetailView.swift */,
+				1A1234567890ABC8 /* cat walking.json */,
+				1A1234567890ABC9 /* Info.plist */,
+			);
+			path = RunningCatMenuBar;
+			sourceTree = "<group>";
+		};
+		1A1234567890ABCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A1234567890ABCA /* RunningCatMenuBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A1234567890ABCE /* RunningCatMenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				1A1234567890ABCC /* RunningCatMenuBar */,
+				1A1234567890ABCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A1234567890ABCF /* RunningCatMenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A1234567890ABD0 /* Build configuration list for PBXNativeTarget "RunningCatMenuBar" */;
+			buildPhases = (
+				1A1234567890ABD1 /* Sources */,
+				1A1234567890ABCB /* Frameworks */,
+				1A1234567890ABD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RunningCatMenuBar;
+			packageProductDependencies = (
+			);
+			productName = RunningCatMenuBar;
+			productReference = 1A1234567890ABCA /* RunningCatMenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A1234567890ABD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1A1234567890ABCF = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 1A1234567890ABD4 /* Build configuration list for PBXProject "RunningCatMenuBar" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A1234567890ABCE /* RunningCatMenuBar */;
+			packageReferences = (
+				1A1234567890ABD5 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 1A1234567890ABCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A1234567890ABCF /* RunningCatMenuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A1234567890ABD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1234567890ABC7 /* cat walking.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A1234567890ABD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A1234567890ABCD /* RunningCatMenuBarApp.swift in Sources */,
+				1A1234567890ABCF /* StatusBarController.swift in Sources */,
+				1A1234567890ABC1 /* CPUMonitor.swift in Sources */,
+				1A1234567890ABC3 /* LottieStatusBarView.swift in Sources */,
+				1A1234567890ABC5 /* CPUDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1A1234567890ABD6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES
