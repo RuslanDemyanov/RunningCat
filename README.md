@@ -1,4 +1,6 @@
-# RunningCatMenuBar 🐱
+# Running cat status bar app 🐱
+
+![](https://github.com/RuslanDemyanov/RunningCat/blob/main/assets/preview.gif)
 
 A delightful macOS status bar application that displays a running cat animation in your menu bar. The cat's running speed dynamically changes based on your Mac's CPU usage - the higher the CPU load, the faster the cat runs!
 
@@ -8,12 +10,12 @@ A delightful macOS status bar application that displays a running cat animation 
 
 ## Features
 
-🎬 **Lottie Animation**: Beautiful, smooth cat walking/running animation  
-📊 **Real-time CPU Monitoring**: Updates every 0.5 seconds for responsive animation  
-⚡ **Dynamic Speed**: Cat speed reflects CPU usage (sleeping → walking → jogging → running → sprinting)  
-🖱️ **Interactive Popover**: Click the cat to see detailed CPU information  
-🌙 **Dark Mode Support**: Adapts to your system's appearance  
-🔋 **Lightweight**: Minimal resource usage  
+🎬 **Lottie Animation**: Beautiful, smooth cat walking/running animation
+📊 **Real-time CPU Monitoring**: Updates every 0.5 seconds for responsive animation
+⚡ **Dynamic Speed**: Cat speed reflects CPU usage (sleeping → walking → jogging → running → sprinting)
+🖱️ **Interactive Popover**: Click the cat to see detailed CPU information
+🌙 **Dark Mode Support**: Adapts to your system's appearance
+🔋 **Lightweight**: Minimal resource usage
 
 ## Cat Speed Mapping
 
